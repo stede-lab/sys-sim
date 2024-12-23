@@ -40,7 +40,7 @@ type_mapping = {
     "Integer": "int",
     "Boolean": "bool",
     "String": "str",
-    "Real": "float"
+    "Rational": "float"
 }
 # convert sysml datatype to python datatype
 def convType(sysmlType: syside.Type) -> str:
